@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shorcut icon" href="img/favicon.ico">
+    <title>Mi Hoja de Vida</title>
+</head>
+<body>
+    <header>
+        <h1>Hoja de vida AlejOcampo</h1>
+    </header>
+    <hr>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="educacion.html">Educación</a>
+        <a href="multimedia.html">multimedia</a>
+    </nav>
+    <hr>
+    <main>
+        <h2>Educacion Recibida</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institucion</th>
+                    <th>Lugar</th>
+                    <th>Titulo</th>
+                    <th>¿Culmino?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1997</td>
+                    <td>ICRI</td>
+                    <td>Itagui</td>
+                    <td>Bachiller</td>
+                    <td>si</td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>UdeA</td>
+                    <td>Medellin</td>
+                    <td>Biologo</td>
+                    <td>si</td> 
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Dev.f</td>
+                    <td>Medellin</td>
+                    <td>Programador</td>
+                    <td>si</td>  
+                </tr>                 
+            </tbody>
+        </table> 
+                    <br>
+                    <br> 
+        <form>
+            <fieldset>
+                <legend>Agregar estudios</legend>
+                    <h2>Agregar estudios</h2>
+                    <label for="anos">Año:</label>
+                    <select name="anos" required>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="inst">Institucion</label>
+                    <input type="text"name="Institucion" placeholder="Ingrese institucion" required>
+                    <br>
+                    <br>
+                    <input type="number" placeholder="Ingrese edad" required>
+                    <br>
+                    <br>
+                    <input type="password" placeholder="Ingrese contraseña" minlength="1" maxlength="8" required>
+                    <br>
+                    <br>
+                    <input type="date" placeholder="Ingrese fecha de nacimiento">
+                    <br>
+                    <br>
+                    <input type="email" placeholder="Ingrese email">
+                    <br>
+                    <br>
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="Comentario" id="" cols="100" rows="10"></textarea>
+                    <br>
+                    <br>
+                    <input type="radio" name="genero" value="f">Femenino
+                    <input type="radio" name="genero" value="m">Masculino
+                    <input type="radio" name="genero" value="o">Otro
+                    <br>
+                    <br>
+                    <h5>Culmino</h5>
+                    <input type="checkbox">si
+                    <input type="checkbox">no
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit">
+                    <button onclick="">send</button>
+            </fieldset>
+        </form> 
+                    <br>
+                    <br>
+        <form>
+            <fieldset>
+                <legend>Informacion de contacto</legend>
+                    <br>
+                    <br>
+                    <label for="nombre">Nombre</label>
+                    <input type="nombre" placeholder="ingrese nombre" required>
+                    <br>
+                    <br>
+                    <label for="apellido">Apellidos</label>
+                    <input type="apellido" placeholder="ingrese apellidos" required>
+                    <br>
+                    <br>
+                    <label for="direccion">Direccion</label>
+                    <input type="direccion" placeholder="ingrese direccion" required>
+                    <br>
+                    <br>
+                    <label for="telefono">Telefono</label>
+                    <input type="telefono" placeholder="ingrese telefono" required>
+                    <br>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="ingrese email" required>
+                    <br>
+                    <br>
+                    <label for="informacion">Informacion Adicional</label>
+                    <textarea name="informacion" id="" cols="80" rows="5"></textarea>
+                    <br>
+                    <br>
+                    <h5>Acepta terminos y condiciones</h5>
+                    <br>
+                    <input type="radio" name="respuesta" value="s">si
+                    <input type="radio" name="respuesta" value="n">no
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit">
+            </fieldset>
+        </form>            
+    </main>
+    <footer>
+        <p>Todos los derechos reservados 2019 <a href="https://www.facebook.com/alejandro.ocampo.146069?ref=bookmarks" target="_blank">facebook</a> | <a href="mailto:alejocampo@gmail.com">escribeme</a></p>
+    </footer>
+</body>
+</html>
