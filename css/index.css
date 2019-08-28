@@ -1,0 +1,24 @@
+body{
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+  color: darkred;
+  font-size: 25px;
+  text-decoration: none;  
+}
+#nombre{
+    color: red;
+}
+.cajas{
+    border: 1px solid green;
+    margin: 30px 20px 10px 5px;
+    padding: 30px 20px 10px 5px;
+}
+.encabezado{
+    border: 1px solid black;
+    display: block;
+}
+h1, nav{
+    display: inline;
+}
